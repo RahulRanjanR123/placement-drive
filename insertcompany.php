@@ -19,7 +19,7 @@ $website=$_POST['website'];
 
 
 
-
+//select databases
 $sql="INSERT INTO company(cname,addrs,email,Phone,alterno,website) VALUES('$cname','$addrs','$email','$Phone','$alterno','$website')";
 
 if(!mysql_query($sql,$con))
